@@ -5,13 +5,12 @@ body {
   font-family: 'Poppins', sans-serif;
   max-width: 1450px;
   margin: 0 auto;
-  padding-bottom: 30px;
 }
 
 /*HEADER*/
 
 .header {
-  padding: 60px 75px;
+  padding: 60px;
 }
 
 .header .logo {
@@ -68,11 +67,19 @@ footer {
   margin-right: 80px;
 }
 
-footer a{
+footer ul {
+  display: flex;
+  margin: 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li{
   margin-left: 20px;
 }
 
-footer a i {
+footer ul li a i {
   font-size: 20px;
   color: #fff;
   border: 1px solid #fff;
@@ -81,7 +88,7 @@ footer a i {
   transition: 0.2s ease-in-out;
 }
 
-footer a i:hover {
+footer ul li a:hover i {
   color: hsl(300, 69%, 71%);
   border: 1px solid hsl(300, 69%, 71%);
 }

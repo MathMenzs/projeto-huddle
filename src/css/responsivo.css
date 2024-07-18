@@ -61,5 +61,9 @@
     margin-left: 0;
     justify-content: center;
   }
+
+  footer ul li:first-child {
+    margin-left: 0;
+  }
 }
 

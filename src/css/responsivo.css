@@ -12,11 +12,6 @@
     font-size: 30px;
   }
 
-  footer {
-    justify-content: flex-start;
-    margin-left: 50px;
-    margin-right: 0;
-  }
 }
 
 
@@ -62,8 +57,5 @@
     justify-content: center;
   }
 
-  footer ul li:first-child {
-    margin-left: 0;
-  }
-}
 
+}
